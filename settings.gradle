@@ -1,0 +1,26 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Learn"
+include ':app'
+include ':chapter02'
+include ':chapter04'
+include ':chapter05'
+include ':chapter06'
+include ':chapter07'
+include ':chapter08'
+
+include ':notes'
+include ':chapter09'
+include ':navigationtest'
