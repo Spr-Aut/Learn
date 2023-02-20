@@ -18,9 +18,9 @@ public class DepartmentPagerAdapter extends FragmentPagerAdapter {
     // 获取指定位置的碎片Fragment
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new DepartmentHomeFragment();
-        } else if (position == 1) {
             return new DepartmentClassFragment();
+        } else if (position == 1) {
+            return new DepartmentHomeFragment();
         } else if (position == 2) {
             return new DepartmentCartFragment();
         } else {

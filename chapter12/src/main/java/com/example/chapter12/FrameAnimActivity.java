@@ -29,14 +29,14 @@ public class FrameAnimActivity extends AppCompatActivity {
     private void showFrameAnimByCode() {
         ad_frame = new AnimationDrawable(); // 创建一个帧动画图形
         // 下面把每帧图片加入到帧动画的列表中
-        ad_frame.addFrame(getDrawable(R.drawable.flow_p1), 50);
-        ad_frame.addFrame(getDrawable(R.drawable.flow_p2), 50);
-        ad_frame.addFrame(getDrawable(R.drawable.flow_p3), 50);
-        ad_frame.addFrame(getDrawable(R.drawable.flow_p4), 50);
-        ad_frame.addFrame(getDrawable(R.drawable.flow_p5), 50);
-        ad_frame.addFrame(getDrawable(R.drawable.flow_p6), 50);
-        ad_frame.addFrame(getDrawable(R.drawable.flow_p7), 50);
-        ad_frame.addFrame(getDrawable(R.drawable.flow_p8), 50);
+        ad_frame.addFrame(getDrawable(R.drawable.flow_p1), 500);
+        ad_frame.addFrame(getDrawable(R.drawable.flow_p2), 500);
+        ad_frame.addFrame(getDrawable(R.drawable.flow_p3), 500);
+        ad_frame.addFrame(getDrawable(R.drawable.flow_p4), 500);
+        ad_frame.addFrame(getDrawable(R.drawable.flow_p5), 500);
+        ad_frame.addFrame(getDrawable(R.drawable.flow_p6), 500);
+        ad_frame.addFrame(getDrawable(R.drawable.flow_p7), 500);
+        ad_frame.addFrame(getDrawable(R.drawable.flow_p8), 500);
         // 设置帧动画是否只播放一次。为true表示只播放一次，为false表示循环播放
         ad_frame.setOneShot(false);
         // 设置图像视图的图形为帧动画

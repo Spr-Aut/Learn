@@ -21,11 +21,15 @@
             <option value="$PROJECT_DIR$/chapter09" />
             <option value="$PROJECT_DIR$/chapter11" />
             <option value="$PROJECT_DIR$/chapter12" />
+            <option value="$PROJECT_DIR$/chapter13" />
+            <option value="$PROJECT_DIR$/haluo" />
+            <option value="$PROJECT_DIR$/kotlindemo" />
             <option value="$PROJECT_DIR$/navigationtest" />
             <option value="$PROJECT_DIR$/notes" />
           </set>
         </option>
       </GradleProjectSettings>
     </option>
+    <option name="offlineMode" value="true" />
   </component>
 </project>
